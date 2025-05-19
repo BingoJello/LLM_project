@@ -1,4 +1,4 @@
-# LLM_project
+# LLM_project - Arthur MIMOUNI / Thibault ABBA
 
 # Générateur de Recettes avec IA (LLaMA 3.2 + Flask)
 
