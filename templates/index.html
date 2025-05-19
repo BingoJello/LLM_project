@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste d'ingrédients</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mon Frigo</h1>
+      <p>Ajoutez les ingrédients que vous avez :</p>
+
+      <!-- Formulaire pour ajouter des ingrédients -->
+      <div class="form-group">
+        <input type="text" id="ingredient" placeholder="Entrez un ingrédient" />
+        <button id="add-btn">+</button>
+      </div>
+
+      <!-- Liste des ingrédients -->
+      <ul id="ingredients-list"></ul>
+
+      <!-- Bouton pour envoyer les ingrédients au backend -->
+      <button id="send-btn">Envoyer au serveur</button>
+
+      <!-- Zone d'affichage des réponses -->
+      <div id="recipes-display"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
